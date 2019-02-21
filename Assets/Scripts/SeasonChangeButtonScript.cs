@@ -2,18 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class SeasonChangeButtonScript : MonoBehaviour
 {
-    private bool isWinter = true;
+    public static SeasonChangeButtonScript instance = null;
 
     [SerializeField] protected Sprite winter_sprite;
     [SerializeField] protected Sprite summer_sprite;
 
     private Image button_image;
 
+    public UnityEvent OnSeasonChange;
+     
     void Awake()
     {
+        if (instance == null)
+            instance = this;
+        else
+            Destroy(this.gameObject);
+
         button_image = this.GetComponent<Image>();
     }
     // Start is called before the first frame update
@@ -30,9 +38,10 @@ public class SeasonChangeButtonScript : MonoBehaviour
 
     public void OnSeasonChangeButtonClick()
     {
-        isWinter = !isWinter;
+        LevelManagerScript.instance.isWinter = !LevelManagerScript.instance.isWinter;
+        OnSeasonChange.Invoke();
 
-        if (isWinter)
+        if (LevelManagerScript.instance.isWinter)
         {
             button_image.sprite = winter_sprite;
         }
