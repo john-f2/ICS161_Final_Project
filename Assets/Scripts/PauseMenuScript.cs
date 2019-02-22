@@ -6,6 +6,7 @@ public class PauseMenuScript : MonoBehaviour
 {
     public bool isPaused = false;
     public GameObject pausePanel;
+    public GameObject screenPanel;
     
     void Update()
     {
@@ -22,11 +23,13 @@ public class PauseMenuScript : MonoBehaviour
         {
             Time.timeScale = 0;
             pausePanel.SetActive(true);
+            screenPanel.SetActive(true);
         }
         else
         {
             Time.timeScale = 1;
             pausePanel.SetActive(false);
+            screenPanel.SetActive(false);
         }
     }
 
