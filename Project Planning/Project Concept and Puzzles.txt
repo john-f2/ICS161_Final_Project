@@ -1,0 +1,8 @@
+Plot:
+Artifact needs to be returned to temple. Entrance to temple is behind two gates which are controlled by switches on opposite sides of the map. 
+
+Prototype Puzzle:
+-Summer Season causes heavy plant growth to block area around cave
+-Winter Season causes cave entrance to be blocked by a hibernating bear
+-Summer Season honey/sap helps reattach broken switch lever
+-Winter Season cools honey/sap so lever can be pulled
