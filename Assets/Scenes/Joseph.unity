@@ -267,8 +267,8 @@ GameObject:
   m_Component:
   - component: {fileID: 28123502}
   - component: {fileID: 28123505}
-  - component: {fileID: 28123504}
   - component: {fileID: 28123503}
+  - component: {fileID: 28123504}
   m_Layer: 0
   m_Name: Floor4Sprite (26)
   m_TagString: Untagged
@@ -325,7 +325,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 28123501}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -391,6 +391,7 @@ GameObject:
   - component: {fileID: 51453509}
   - component: {fileID: 51453508}
   - component: {fileID: 51453507}
+  - component: {fileID: 51453510}
   m_Layer: 0
   m_Name: Floor5Sprite (15)
   m_TagString: Untagged
@@ -445,14 +446,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 51453505}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &51453509
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -501,6 +501,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &51453510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51453505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &166251341
 GameObject:
   m_ObjectHideFlags: 0
@@ -513,6 +528,7 @@ GameObject:
   - component: {fileID: 166251345}
   - component: {fileID: 166251344}
   - component: {fileID: 166251343}
+  - component: {fileID: 166251346}
   m_Layer: 0
   m_Name: Floor5Sprite (26)
   m_TagString: Untagged
@@ -567,14 +583,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 166251341}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &166251345
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -623,6 +638,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &166251346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166251341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &179658650
 GameObject:
   m_ObjectHideFlags: 0
@@ -796,6 +826,7 @@ GameObject:
   - component: {fileID: 214779558}
   - component: {fileID: 214779557}
   - component: {fileID: 214779556}
+  - component: {fileID: 214779559}
   m_Layer: 0
   m_Name: Floor5Sprite (21)
   m_TagString: Untagged
@@ -850,14 +881,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 214779554}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &214779558
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -906,6 +936,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &214779559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214779554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &216050080
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,8 +961,8 @@ GameObject:
   m_Component:
   - component: {fileID: 216050081}
   - component: {fileID: 216050083}
-  - component: {fileID: 216050082}
   - component: {fileID: 216050084}
+  - component: {fileID: 216050082}
   m_Layer: 0
   m_Name: Floor4Sprite (18)
   m_TagString: Untagged
@@ -948,7 +993,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 216050080}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -1175,6 +1220,7 @@ GameObject:
   - component: {fileID: 340083016}
   - component: {fileID: 340083015}
   - component: {fileID: 340083014}
+  - component: {fileID: 340083017}
   m_Layer: 0
   m_Name: Floor5Sprite (25)
   m_TagString: Untagged
@@ -1229,14 +1275,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 340083012}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &340083016
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1285,6 +1330,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &340083017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340083012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &350501006
 GameObject:
   m_ObjectHideFlags: 0
@@ -1297,6 +1357,7 @@ GameObject:
   - component: {fileID: 350501010}
   - component: {fileID: 350501009}
   - component: {fileID: 350501008}
+  - component: {fileID: 350501011}
   m_Layer: 0
   m_Name: Floor5Sprite (1)
   m_TagString: Untagged
@@ -1351,14 +1412,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 350501006}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &350501010
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1407,6 +1467,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &350501011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350501006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &385864678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1417,8 +1492,8 @@ GameObject:
   m_Component:
   - component: {fileID: 385864679}
   - component: {fileID: 385864682}
-  - component: {fileID: 385864681}
   - component: {fileID: 385864680}
+  - component: {fileID: 385864681}
   m_Layer: 0
   m_Name: Floor4Sprite (17)
   m_TagString: Untagged
@@ -1475,7 +1550,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 385864678}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -1561,6 +1636,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &395865138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395865133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &435663655
 GameObject:
   m_ObjectHideFlags: 0
@@ -1571,8 +1661,8 @@ GameObject:
   m_Component:
   - component: {fileID: 435663656}
   - component: {fileID: 435663659}
-  - component: {fileID: 435663658}
   - component: {fileID: 435663657}
+  - component: {fileID: 435663658}
   m_Layer: 0
   m_Name: Floor4Sprite (19)
   m_TagString: Untagged
@@ -1629,7 +1719,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 435663655}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -1695,6 +1785,7 @@ GameObject:
   - component: {fileID: 515249383}
   - component: {fileID: 515249382}
   - component: {fileID: 515249381}
+  - component: {fileID: 515249384}
   m_Layer: 0
   m_Name: Floor5Sprite (4)
   m_TagString: Untagged
@@ -1749,14 +1840,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 515249379}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &515249383
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1805,6 +1895,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &515249384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515249379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &523232321
 GameObject:
   m_ObjectHideFlags: 0
@@ -2076,6 +2181,7 @@ GameObject:
   - component: {fileID: 538628958}
   - component: {fileID: 538628957}
   - component: {fileID: 538628956}
+  - component: {fileID: 538628959}
   m_Layer: 0
   m_Name: Floor5Sprite (12)
   m_TagString: Untagged
@@ -2130,14 +2236,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538628954}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &538628958
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2186,6 +2291,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &538628959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538628954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &573960455
 GameObject:
   m_ObjectHideFlags: 0
@@ -2196,8 +2316,8 @@ GameObject:
   m_Component:
   - component: {fileID: 573960456}
   - component: {fileID: 573960458}
-  - component: {fileID: 573960457}
   - component: {fileID: 573960459}
+  - component: {fileID: 573960457}
   m_Layer: 0
   m_Name: Floor4Sprite (12)
   m_TagString: Untagged
@@ -2228,7 +2348,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 573960455}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -2422,6 +2542,7 @@ GameObject:
   - component: {fileID: 676988096}
   - component: {fileID: 676988095}
   - component: {fileID: 676988094}
+  - component: {fileID: 676988097}
   m_Layer: 0
   m_Name: Floor5Sprite (16)
   m_TagString: Untagged
@@ -2476,14 +2597,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 676988092}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &676988096
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2532,6 +2652,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &676988097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676988092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &695238183
 GameObject:
   m_ObjectHideFlags: 0
@@ -2626,7 +2761,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: afe27fe05d667364aa6595edf921a4e4, type: 3}
   summer_sprite: {fileID: 21300000, guid: 381522a122fbaa047a73082ec0ffb2d1, type: 3}
-  winterwall: 0
 --- !u!1 &706947680
 GameObject:
   m_ObjectHideFlags: 0
@@ -2639,6 +2773,7 @@ GameObject:
   - component: {fileID: 706947684}
   - component: {fileID: 706947683}
   - component: {fileID: 706947682}
+  - component: {fileID: 706947685}
   m_Layer: 0
   m_Name: Floor5Sprite (5)
   m_TagString: Untagged
@@ -2693,14 +2828,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706947680}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &706947684
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2749,6 +2883,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &706947685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706947680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &738175160
 GameObject:
   m_ObjectHideFlags: 0
@@ -2890,8 +3039,8 @@ GameObject:
   m_Component:
   - component: {fileID: 749534597}
   - component: {fileID: 749534599}
-  - component: {fileID: 749534598}
   - component: {fileID: 749534600}
+  - component: {fileID: 749534598}
   m_Layer: 0
   m_Name: Floor4Sprite (3)
   m_TagString: Untagged
@@ -2922,7 +3071,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 749534596}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -3012,8 +3161,8 @@ GameObject:
   m_Component:
   - component: {fileID: 752020319}
   - component: {fileID: 752020322}
-  - component: {fileID: 752020321}
   - component: {fileID: 752020320}
+  - component: {fileID: 752020321}
   m_Layer: 0
   m_Name: Floor4Sprite (28)
   m_TagString: Untagged
@@ -3070,7 +3219,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 752020318}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -3265,6 +3414,7 @@ GameObject:
   - component: {fileID: 836917265}
   - component: {fileID: 836917264}
   - component: {fileID: 836917263}
+  - component: {fileID: 836917266}
   m_Layer: 0
   m_Name: Floor5Sprite (19)
   m_TagString: Untagged
@@ -3319,14 +3469,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 836917261}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &836917265
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3375,6 +3524,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &836917266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836917261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &839791065
 GameObject:
   m_ObjectHideFlags: 0
@@ -3385,8 +3549,8 @@ GameObject:
   m_Component:
   - component: {fileID: 839791066}
   - component: {fileID: 839791068}
-  - component: {fileID: 839791067}
   - component: {fileID: 839791069}
+  - component: {fileID: 839791067}
   m_Layer: 0
   m_Name: Floor4Sprite (8)
   m_TagString: Untagged
@@ -3417,7 +3581,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 839791065}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -3507,8 +3671,8 @@ GameObject:
   m_Component:
   - component: {fileID: 903256154}
   - component: {fileID: 903256156}
-  - component: {fileID: 903256155}
   - component: {fileID: 903256157}
+  - component: {fileID: 903256155}
   m_Layer: 0
   m_Name: Floor4Sprite (4)
   m_TagString: Untagged
@@ -3539,7 +3703,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 903256153}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -3631,6 +3795,7 @@ GameObject:
   - component: {fileID: 911614082}
   - component: {fileID: 911614081}
   - component: {fileID: 911614080}
+  - component: {fileID: 911614083}
   m_Layer: 0
   m_Name: Floor5Sprite (9)
   m_TagString: Untagged
@@ -3685,14 +3850,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 911614078}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &911614082
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3741,6 +3905,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &911614083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911614078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &958173430
 GameObject:
   m_ObjectHideFlags: 0
@@ -3753,6 +3932,7 @@ GameObject:
   - component: {fileID: 958173434}
   - component: {fileID: 958173433}
   - component: {fileID: 958173432}
+  - component: {fileID: 958173435}
   m_Layer: 0
   m_Name: Floor5Sprite (6)
   m_TagString: Untagged
@@ -3807,14 +3987,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 958173430}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &958173434
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3863,6 +4042,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &958173435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958173430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &1007134263
 GameObject:
   m_ObjectHideFlags: 0
@@ -3939,8 +4133,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1011407786}
   - component: {fileID: 1011407788}
-  - component: {fileID: 1011407787}
   - component: {fileID: 1011407789}
+  - component: {fileID: 1011407787}
   m_Layer: 0
   m_Name: Floor4Sprite (9)
   m_TagString: Untagged
@@ -3971,7 +4165,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1011407785}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -4142,6 +4336,7 @@ GameObject:
   - component: {fileID: 1035601921}
   - component: {fileID: 1035601920}
   - component: {fileID: 1035601919}
+  - component: {fileID: 1035601922}
   m_Layer: 0
   m_Name: Floor5Sprite (2)
   m_TagString: Untagged
@@ -4196,14 +4391,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1035601917}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &1035601921
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4252,6 +4446,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1035601922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035601917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &1049586166
 GameObject:
   m_ObjectHideFlags: 0
@@ -4262,8 +4471,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1049586167}
   - component: {fileID: 1049586169}
-  - component: {fileID: 1049586168}
   - component: {fileID: 1049586170}
+  - component: {fileID: 1049586168}
   m_Layer: 0
   m_Name: Floor4Sprite (16)
   m_TagString: Untagged
@@ -4294,7 +4503,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1049586166}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -4386,6 +4595,7 @@ GameObject:
   - component: {fileID: 1084514960}
   - component: {fileID: 1084514959}
   - component: {fileID: 1084514958}
+  - component: {fileID: 1084514961}
   m_Layer: 0
   m_Name: Floor5Sprite (18)
   m_TagString: Untagged
@@ -4440,14 +4650,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1084514956}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &1084514960
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4496,6 +4705,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1084514961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084514956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &1119649604
 GameObject:
   m_ObjectHideFlags: 0
@@ -4506,8 +4730,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1119649605}
   - component: {fileID: 1119649607}
-  - component: {fileID: 1119649606}
   - component: {fileID: 1119649608}
+  - component: {fileID: 1119649606}
   m_Layer: 0
   m_Name: Floor4Sprite (7)
   m_TagString: Untagged
@@ -4538,7 +4762,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1119649604}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -4628,8 +4852,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1144624863}
   - component: {fileID: 1144624866}
-  - component: {fileID: 1144624865}
   - component: {fileID: 1144624864}
+  - component: {fileID: 1144624865}
   m_Layer: 0
   m_Name: Floor4Sprite (27)
   m_TagString: Untagged
@@ -4686,7 +4910,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1144624862}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -4752,6 +4976,7 @@ GameObject:
   - component: {fileID: 1158778840}
   - component: {fileID: 1158778839}
   - component: {fileID: 1158778838}
+  - component: {fileID: 1158778841}
   m_Layer: 0
   m_Name: Floor5Sprite (20)
   m_TagString: Untagged
@@ -4806,14 +5031,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1158778836}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &1158778840
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4862,6 +5086,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1158778841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158778836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &1181648529
 GameObject:
   m_ObjectHideFlags: 0
@@ -4872,8 +5111,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1181648530}
   - component: {fileID: 1181648532}
-  - component: {fileID: 1181648531}
   - component: {fileID: 1181648533}
+  - component: {fileID: 1181648531}
   m_Layer: 0
   m_Name: Floor4Sprite (11)
   m_TagString: Untagged
@@ -4904,7 +5143,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1181648529}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -5078,7 +5317,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995,
         type: 3}
-    m_RemovedComponents: []
+    - target: {fileID: 5026596262077639917, guid: 9722155637f9f0d4b9e398b8c93d77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5026596262077639917, guid: 9722155637f9f0d4b9e398b8c93d77db, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9722155637f9f0d4b9e398b8c93d77db, type: 3}
 --- !u!1 &1221171859
 GameObject:
@@ -5090,8 +5335,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1221171860}
   - component: {fileID: 1221171863}
-  - component: {fileID: 1221171862}
   - component: {fileID: 1221171861}
+  - component: {fileID: 1221171862}
   m_Layer: 0
   m_Name: Floor4Sprite (23)
   m_TagString: Untagged
@@ -5148,7 +5393,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1221171859}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -5214,6 +5459,7 @@ GameObject:
   - component: {fileID: 1241286687}
   - component: {fileID: 1241286686}
   - component: {fileID: 1241286685}
+  - component: {fileID: 1241286688}
   m_Layer: 0
   m_Name: Floor5Sprite (24)
   m_TagString: Untagged
@@ -5268,14 +5514,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241286683}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &1241286687
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5324,6 +5569,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1241286688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241286683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &1340517843
 GameObject:
   m_ObjectHideFlags: 0
@@ -5334,8 +5594,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1340517844}
   - component: {fileID: 1340517846}
-  - component: {fileID: 1340517845}
   - component: {fileID: 1340517847}
+  - component: {fileID: 1340517845}
   m_Layer: 0
   m_Name: Floor4Sprite (13)
   m_TagString: Untagged
@@ -5366,7 +5626,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1340517843}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -5462,8 +5722,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1401353083}
   - component: {fileID: 1401353085}
-  - component: {fileID: 1401353084}
   - component: {fileID: 1401353086}
+  - component: {fileID: 1401353084}
   m_Layer: 0
   m_Name: Floor4Sprite (10)
   m_TagString: Untagged
@@ -5494,7 +5754,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1401353082}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -5586,6 +5846,7 @@ GameObject:
   - component: {fileID: 1401534194}
   - component: {fileID: 1401534193}
   - component: {fileID: 1401534192}
+  - component: {fileID: 1401534195}
   m_Layer: 0
   m_Name: Floor5Sprite (17)
   m_TagString: Untagged
@@ -5640,14 +5901,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1401534190}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &1401534194
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5696,6 +5956,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1401534195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401534190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &1419850200
 GameObject:
   m_ObjectHideFlags: 0
@@ -5708,6 +5983,7 @@ GameObject:
   - component: {fileID: 1419850204}
   - component: {fileID: 1419850203}
   - component: {fileID: 1419850202}
+  - component: {fileID: 1419850205}
   m_Layer: 0
   m_Name: Floor5Sprite (7)
   m_TagString: Untagged
@@ -5762,14 +6038,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1419850200}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &1419850204
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5818,6 +6093,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1419850205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419850200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &1420004036
 GameObject:
   m_ObjectHideFlags: 0
@@ -5991,6 +6281,7 @@ GameObject:
   - component: {fileID: 1426700283}
   - component: {fileID: 1426700282}
   - component: {fileID: 1426700281}
+  - component: {fileID: 1426700284}
   m_Layer: 0
   m_Name: Floor5Sprite (3)
   m_TagString: Untagged
@@ -6045,14 +6336,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1426700279}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &1426700283
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6101,6 +6391,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1426700284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426700279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &1428763955
 GameObject:
   m_ObjectHideFlags: 0
@@ -6111,8 +6416,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1428763956}
   - component: {fileID: 1428763959}
-  - component: {fileID: 1428763958}
   - component: {fileID: 1428763957}
+  - component: {fileID: 1428763958}
   m_Layer: 0
   m_Name: Floor4Sprite (20)
   m_TagString: Untagged
@@ -6169,7 +6474,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1428763955}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -6233,8 +6538,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1464010965}
   - component: {fileID: 1464010967}
-  - component: {fileID: 1464010966}
   - component: {fileID: 1464010968}
+  - component: {fileID: 1464010966}
   m_Layer: 0
   m_Name: Floor4Sprite (14)
   m_TagString: Untagged
@@ -6265,12 +6570,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1464010964}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
   summer_sprite: {fileID: 21300000, guid: 37fc3881147bdeb4ba23a4820069fb14, type: 3}
-  winterwall: 1
+  winterwall: 0
 --- !u!212 &1464010967
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6326,7 +6631,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1464010964}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -6355,8 +6660,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1475794762}
   - component: {fileID: 1475794765}
-  - component: {fileID: 1475794764}
   - component: {fileID: 1475794763}
+  - component: {fileID: 1475794764}
   m_Layer: 0
   m_Name: Floor4Sprite (22)
   m_TagString: Untagged
@@ -6413,7 +6718,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1475794761}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -6477,8 +6782,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1481687100}
   - component: {fileID: 1481687103}
-  - component: {fileID: 1481687102}
   - component: {fileID: 1481687101}
+  - component: {fileID: 1481687102}
   m_Layer: 0
   m_Name: Floor4Sprite (25)
   m_TagString: Untagged
@@ -6535,7 +6840,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1481687099}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -7036,6 +7341,7 @@ GameObject:
   - component: {fileID: 1686549755}
   - component: {fileID: 1686549754}
   - component: {fileID: 1686549753}
+  - component: {fileID: 1686549756}
   m_Layer: 0
   m_Name: Floor5Sprite (13)
   m_TagString: Untagged
@@ -7090,14 +7396,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686549751}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &1686549755
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7146,6 +7451,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1686549756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686549751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &1722053772
 GameObject:
   m_ObjectHideFlags: 0
@@ -7158,6 +7478,7 @@ GameObject:
   - component: {fileID: 1722053776}
   - component: {fileID: 1722053775}
   - component: {fileID: 1722053774}
+  - component: {fileID: 1722053777}
   m_Layer: 0
   m_Name: Floor5Sprite (10)
   m_TagString: Untagged
@@ -7212,14 +7533,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1722053772}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &1722053776
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7268,6 +7588,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1722053777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722053772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &1781545328
 GameObject:
   m_ObjectHideFlags: 0
@@ -7316,6 +7651,27 @@ MonoBehaviour:
   isPaused: 0
   pausePanel: {fileID: 2071016239}
   screenPanel: {fileID: 1502437390}
+--- !u!1 &1825338416 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5026596262077639919, guid: 9722155637f9f0d4b9e398b8c93d77db,
+    type: 3}
+  m_PrefabInstance: {fileID: 1207576261}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1825338418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825338416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 37fc3881147bdeb4ba23a4820069fb14, type: 3}
+  winterwall: 0
 --- !u!1 &1828410874
 GameObject:
   m_ObjectHideFlags: 0
@@ -7328,6 +7684,7 @@ GameObject:
   - component: {fileID: 1828410878}
   - component: {fileID: 1828410877}
   - component: {fileID: 1828410876}
+  - component: {fileID: 1828410879}
   m_Layer: 0
   m_Name: Floor5Sprite (11)
   m_TagString: Untagged
@@ -7382,14 +7739,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1828410874}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &1828410878
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7438,6 +7794,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1828410879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828410874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &1831423057
 GameObject:
   m_ObjectHideFlags: 0
@@ -7450,6 +7821,7 @@ GameObject:
   - component: {fileID: 1831423061}
   - component: {fileID: 1831423060}
   - component: {fileID: 1831423059}
+  - component: {fileID: 1831423062}
   m_Layer: 0
   m_Name: Floor5Sprite (23)
   m_TagString: Untagged
@@ -7504,14 +7876,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831423057}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &1831423061
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7560,6 +7931,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1831423062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831423057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &1839775944
 GameObject:
   m_ObjectHideFlags: 0
@@ -7570,8 +7956,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1839775945}
   - component: {fileID: 1839775947}
-  - component: {fileID: 1839775946}
   - component: {fileID: 1839775948}
+  - component: {fileID: 1839775946}
   m_Layer: 0
   m_Name: Floor4Sprite (5)
   m_TagString: Untagged
@@ -7602,7 +7988,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1839775944}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -7736,8 +8122,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1875653386}
   - component: {fileID: 1875653388}
-  - component: {fileID: 1875653387}
   - component: {fileID: 1875653389}
+  - component: {fileID: 1875653387}
   m_Layer: 0
   m_Name: Floor4Sprite (6)
   m_TagString: Untagged
@@ -7768,7 +8154,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1875653385}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -7889,7 +8275,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1906009001}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
@@ -8162,8 +8548,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1929547837}
   - component: {fileID: 1929547840}
-  - component: {fileID: 1929547839}
   - component: {fileID: 1929547838}
+  - component: {fileID: 1929547839}
   m_Layer: 0
   m_Name: Floor4Sprite (21)
   m_TagString: Untagged
@@ -8220,7 +8606,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1929547836}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -8286,6 +8672,7 @@ GameObject:
   - component: {fileID: 1961383375}
   - component: {fileID: 1961383374}
   - component: {fileID: 1961383373}
+  - component: {fileID: 1961383376}
   m_Layer: 0
   m_Name: Floor5Sprite (8)
   m_TagString: Untagged
@@ -8340,14 +8727,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1961383371}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &1961383375
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8396,6 +8782,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1961383376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961383371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &1964241681
 GameObject:
   m_ObjectHideFlags: 0
@@ -8408,6 +8809,7 @@ GameObject:
   - component: {fileID: 1964241685}
   - component: {fileID: 1964241684}
   - component: {fileID: 1964241683}
+  - component: {fileID: 1964241686}
   m_Layer: 0
   m_Name: Floor5Sprite (22)
   m_TagString: Untagged
@@ -8462,14 +8864,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1964241681}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &1964241685
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8518,6 +8919,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1964241686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964241681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &1971734803
 GameObject:
   m_ObjectHideFlags: 0
@@ -8756,6 +9172,7 @@ GameObject:
   - component: {fileID: 2112049463}
   - component: {fileID: 2112049462}
   - component: {fileID: 2112049461}
+  - component: {fileID: 2112049464}
   m_Layer: 0
   m_Name: Floor5Sprite (14)
   m_TagString: Untagged
@@ -8810,14 +9227,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2112049459}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
   summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
-  winterwall: 0
 --- !u!212 &2112049463
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8866,6 +9282,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2112049464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112049459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winter_sprite: {fileID: 21300000, guid: caadd85d516cc5a4a88c7396e89c1995, type: 3}
+  summer_sprite: {fileID: 21300000, guid: 5c0c048c4108d0b419d0bf57b7afab8b, type: 3}
+  winterwall: 0
 --- !u!1 &2137321062
 GameObject:
   m_ObjectHideFlags: 0
@@ -8876,8 +9307,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2137321063}
   - component: {fileID: 2137321066}
-  - component: {fileID: 2137321065}
   - component: {fileID: 2137321064}
+  - component: {fileID: 2137321065}
   m_Layer: 0
   m_Name: Floor4Sprite (24)
   m_TagString: Untagged
@@ -8934,7 +9365,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2137321062}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf00727238fa1aa48af75541e468202b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6315a6c95201a45a5365500e2952e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   winter_sprite: {fileID: 21300000, guid: 7015c23a2dcdd7d428f31bdebda03b4a, type: 3}
@@ -9140,6 +9571,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: a6ebbeebc47d73b49a483a7885c50872,
         type: 3}
+    - target: {fileID: 1211414969105706877, guid: 7de3517a29ebc574880d3fc14800c060,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7de3517a29ebc574880d3fc14800c060, type: 3}
 --- !u!1001 &3255064836723124813
