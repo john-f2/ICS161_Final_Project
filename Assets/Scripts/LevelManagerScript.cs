@@ -7,6 +7,8 @@ public class LevelManagerScript : MonoBehaviour
     public static LevelManagerScript instance = null;
     
     public bool isWinter = true;
+    public List<GameObject> summerObjectList;
+    public List<GameObject> winterObjectList;
 
     void Awake()
     {
@@ -30,6 +32,27 @@ public class LevelManagerScript : MonoBehaviour
 
     void OnSeasonChangeListener()
     {
-
+        if(isWinter)
+        {
+            foreach(GameObject i in winterObjectList)
+            {
+                i.SetActive(true);
+            }
+            foreach(GameObject i in summerObjectList)
+            {
+                i.SetActive(false);
+            }
+        }
+        else
+        {
+            foreach (GameObject i in summerObjectList)
+            {
+                i.SetActive(true);
+            }
+            foreach (GameObject i in winterObjectList)
+            {
+                i.SetActive(false);
+            }
+        }
     }
 }
