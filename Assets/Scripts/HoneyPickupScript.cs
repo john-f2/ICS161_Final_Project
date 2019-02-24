@@ -17,4 +17,5 @@ public class HoneyPickupScript : MonoBehaviour
             }
         }
     }
+
 }

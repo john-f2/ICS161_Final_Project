@@ -19,12 +19,17 @@ public class LevelManagerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        SeasonChangeButtonScript.instance.OnSeasonChange.AddListener(OnSeasonChangeListener);
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    void OnSeasonChangeListener()
+    {
+
     }
 }
