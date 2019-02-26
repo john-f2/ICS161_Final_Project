@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Joseph.unity
+    guid: 2e77130cfb70d554ea6da0091cbb0233
+  - enabled: 1
+    path: Assets/Scenes/Ariana.unity
+    guid: 5c0c5f1a29e855b47879b39e1ed7133b
+  - enabled: 1
+    path: Assets/Scenes/InsideCave.unity
+    guid: 3a054bac1a67d40a1974d1cb0075c617
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: 899102ee3aa73457f8a86bcf6a316217
   m_configObjects: {}
