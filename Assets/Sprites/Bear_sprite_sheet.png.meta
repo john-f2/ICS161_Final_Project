@@ -101,6 +101,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a32ad6342a00d436b91e0205bcf0d925
+
       vertices: []
       indices: 
       edges: []
@@ -120,7 +121,9 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+
       spriteID: e2c4ecdcb0317497f9cdddd998eb6ff9
+
       vertices: []
       indices: 
       edges: []
