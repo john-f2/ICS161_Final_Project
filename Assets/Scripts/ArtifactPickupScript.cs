@@ -20,6 +20,7 @@ public class ArtifactPickupScript : MonoBehaviour
             if (Input.GetKeyDown("e"))
             {
                 SeasonChangeImage.GetComponent<Image>().enabled = true;
+                SeasonChangeImage.GetComponent<SeasonChangeButtonScript>().enabled = true;
                 LevelManagerScript.instance.WriteText("Picked up the artifact!");
                 Destroy(this.gameObject);
             }
