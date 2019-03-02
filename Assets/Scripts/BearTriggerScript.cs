@@ -8,7 +8,7 @@ public class BearTriggerScript : MonoBehaviour
     {
         if (collider.CompareTag("Player"))
         {
-            DialougeTypeScript.instance.WriteText("The bear is blocking the cave...but I shouldn't wake him up.");
+            LevelManagerScript.instance.WriteText("The bear is blocking the cave...but I shouldn't wake him up.");
         }
     }
 

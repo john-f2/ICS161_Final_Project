@@ -31,11 +31,11 @@ public class LeverBScript : MonoBehaviour
                         isFixed = true;
                         PlayerInventoryScript.instance.hasHoney = false;
                         m_spriterenderer.sprite = fixed_lever;
-                        DialougeTypeScript.instance.WriteText("Used Honey to fix lever!");
+                        LevelManagerScript.instance.WriteText("Used Honey to fix lever!");
                     }
                     else
                     {
-                        DialougeTypeScript.instance.WriteText("The lever is broken...");
+                        LevelManagerScript.instance.WriteText("The lever is broken...");
                     }
                 }
                 else
@@ -44,11 +44,11 @@ public class LeverBScript : MonoBehaviour
                     {
                         isOpen = true;
                         m_spriterenderer.sprite = open_lever;
-                        DialougeTypeScript.instance.WriteText("I pulled the lever. I think the gate should be open now.");
+                        LevelManagerScript.instance.WriteText("I pulled the lever. I think the gate should be open now.");
                     }
                     else
                     {
-                        DialougeTypeScript.instance.WriteText("The honey is too liquid to pull the lever...");
+                        LevelManagerScript.instance.WriteText("The honey is too liquid to pull the lever...");
                     }
                 }
             }
