@@ -6,13 +6,6 @@ using UnityEngine.UI;
 public class ArtifactPickupScript : MonoBehaviour
 {
     [SerializeField] protected GameObject SeasonChangeImage;
-    void OnTriggerEnter2D(Collider2D collider)
-    {
-        if (collider.CompareTag("Player"))
-        {
-            LevelManagerScript.instance.WriteText("I wonder what that object is...");
-        }
-    }
     void OnTriggerStay2D(Collider2D collider)
     {
         if (collider.CompareTag("Player"))
