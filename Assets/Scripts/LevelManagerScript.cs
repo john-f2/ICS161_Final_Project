@@ -8,7 +8,6 @@ public class LevelManagerScript : MonoBehaviour
     public static LevelManagerScript instance = null;
     
     public bool isWinter = true;
-    public bool hasArtifact = false;
     public List<GameObject> summerObjectList;
     public List<GameObject> winterObjectList;
 
@@ -51,7 +50,7 @@ public class LevelManagerScript : MonoBehaviour
             dialouge_box.text += c;
             yield return new WaitForSecondsRealtime(wait_time);
         }
-        yield return new WaitForSecondsRealtime(dialouge.Length * 0.05f);
+        yield return new WaitForSecondsRealtime(dialouge.Length * 0.01f);
         dialougePanel.SetActive(false);
         Time.timeScale = 1;
         isRunning = false;

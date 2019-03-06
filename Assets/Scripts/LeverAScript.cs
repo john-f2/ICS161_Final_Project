@@ -1,15 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class LeverAScript : MonoBehaviour
 {
-    public bool isOpen = false;
 
     [SerializeField] protected Sprite frozen_lever;
     [SerializeField] protected Sprite open_lever;
 
     private SpriteRenderer m_spriterenderer;
+
+    public UnityEvent OnLeverAPull;
 
     void Awake()
     {
@@ -28,7 +30,7 @@ public class LeverAScript : MonoBehaviour
                 }
                 else
                 {
-                    isOpen = true;
+                    OnLeverAPull.Invoke();
                     m_spriterenderer.sprite = open_lever;
                     LevelManagerScript.instance.WriteText("I pulled the lever! I think a gate should be open now.");
                     this.GetComponentInChildren<SeasonChangeSpriteScript>().enabled = false;

@@ -1,17 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class LeverBScript : MonoBehaviour
 {
     private bool isFixed = false;
-    public bool isOpen = false;
 
     [SerializeField] protected Sprite broken_lever;
     [SerializeField] protected Sprite fixed_lever;
     [SerializeField] protected Sprite open_lever;
 
     private SpriteRenderer m_spriterenderer;
+
+    public UnityEvent OnLeverBPull;
 
     void Awake()
     {
@@ -42,9 +44,9 @@ public class LeverBScript : MonoBehaviour
                 {
                     if (LevelManagerScript.instance.isWinter)
                     {
-                        isOpen = true;
+                        OnLeverBPull.Invoke();
                         m_spriterenderer.sprite = open_lever;
-                        LevelManagerScript.instance.WriteText("I pulled the lever. I think the gate should be open now.");
+                        LevelManagerScript.instance.WriteText("I pulled the lever. I think a gate should be open now.");
                     }
                     else
                     {
