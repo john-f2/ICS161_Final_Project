@@ -1,9 +1,10 @@
 fileFormatVersion: 2
-guid: 5103767c9be8d1149a888da253b42799
+guid: 0ec2d603280fab74b9e161d5253262b3
 TextureImporter:
   fileIDToRecycleName:
-    21300000: templepillar_0
-    21300002: templepillar_1
+    21300000: kidstart_0
+    21300002: kidstart_1
+    21300004: kidstart_2
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -47,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -86,13 +87,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: templepillar_0
+      name: kidstart_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 297
-        width: 500
-        height: 503
+        x: 2685
+        y: 2013
+        width: 163
+        height: 187
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -100,19 +101,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2aae00048bf56949a351051bad12492
+      spriteID: 8582e6ee6eaed7342bd2cd0791d37e08
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: templepillar_1
+      name: kidstart_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 500
-        height: 297
+        x: 2159
+        y: 123
+        width: 1391
+        height: 1805
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,7 +121,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 804adf0872f55de48b69a786ff0d925f
+      spriteID: a6f19b3f268b0184fa5e8f2c861a95bc
       vertices: []
       indices: 
       edges: []
@@ -128,7 +129,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: be2e74a0d58431f4e94d837f0befa08c
+    spriteID: 0941db1abc029ee48b750082fdec7765
     vertices: []
     indices: 
     edges: []

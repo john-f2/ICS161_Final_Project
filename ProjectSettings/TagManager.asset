@@ -44,6 +44,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Top
-    uniqueID: 1278656843
+  - name: Floor
+    uniqueID: 4121195701
+    locked: 0
+  - name: Objects
+    uniqueID: 2565152839
+    locked: 0
+  - name: Player
+    uniqueID: 1744552437
+    locked: 0
+  - name: InFrontOfPlayer
+    uniqueID: 2175541023
     locked: 0

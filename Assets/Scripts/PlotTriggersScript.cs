@@ -17,7 +17,8 @@ public class PlotTriggersScript : MonoBehaviour
         }
         else if (this.name == "TempleGatesClosedTrigger")
         {
-            LevelManagerScript.instance.WriteText("The gates are closed, but I must get in. I must find the two levers to open them.");
+            LevelManagerScript.instance.WriteText("The gates are closed, but I must get in. I'll find the two levers to open them.");
         }
+        Destroy(this.gameObject);
     }
 }
