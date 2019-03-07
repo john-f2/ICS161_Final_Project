@@ -63366,6 +63366,7 @@ MonoBehaviour:
   winterObjectList: []
   dialougeBox: {fileID: 179658650}
   dialougePanel: {fileID: 2044423373}
+  seasonControl: {fileID: 1921813272}
   wait_time: 0.03
 --- !u!4 &1873620403
 Transform:

@@ -12,8 +12,9 @@ public class LevelManagerScript : MonoBehaviour
     public List<GameObject> winterObjectList;
 
     TextMeshProUGUI dialouge_box;
-    public GameObject dialougeBox;
-    public GameObject dialougePanel;
+    [SerializeField] protected GameObject dialougeBox;
+    [SerializeField] protected GameObject dialougePanel;
+    [SerializeField] protected GameObject seasonControl;
 
     public float wait_time = 0.1f;
     private bool isRunning = false;
@@ -41,6 +42,7 @@ public class LevelManagerScript : MonoBehaviour
 
     IEnumerator TypeDialouge(string dialouge)
     {
+        seasonControl.GetComponent<SeasonChangeButtonScript>().enabled = false;
         isRunning = true;
         dialougePanel.SetActive(true);
         dialouge_box.text = "";
@@ -54,6 +56,7 @@ public class LevelManagerScript : MonoBehaviour
         dialougePanel.SetActive(false);
         Time.timeScale = 1;
         isRunning = false;
+        seasonControl.GetComponent<SeasonChangeButtonScript>().enabled = true;
 
     }
 
