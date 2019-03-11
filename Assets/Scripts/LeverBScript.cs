@@ -10,6 +10,7 @@ public class LeverBScript : MonoBehaviour
     [SerializeField] protected Sprite broken_lever;
     [SerializeField] protected Sprite fixed_lever;
     [SerializeField] protected Sprite open_lever;
+    [SerializeField] protected AudioClip clickLever;
 
     private SpriteRenderer m_spriterenderer;
 
@@ -46,6 +47,8 @@ public class LeverBScript : MonoBehaviour
                     {
                         OnLeverBPull.Invoke();
                         m_spriterenderer.sprite = open_lever;
+                        SFXManagerScript.instance.PlaySFX(clickLever);
+                        SFXManagerScript.instance.PlayAchievement();
                         LevelManagerScript.instance.WriteText("I pulled the lever. I think a gate should be open now.");
                     }
                     else

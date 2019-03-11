@@ -10,6 +10,7 @@ public class SeasonChangeButtonScript : MonoBehaviour
 
     [SerializeField] protected Sprite winter_sprite;
     [SerializeField] protected Sprite summer_sprite;
+    [SerializeField] protected AudioClip seasonChangeSound;
 
     private Image button_image;
 
@@ -43,6 +44,7 @@ public class SeasonChangeButtonScript : MonoBehaviour
     {
         LevelManagerScript.instance.isWinter = !LevelManagerScript.instance.isWinter;
         OnSeasonChange.Invoke();
+        SFXManagerScript.instance.PlaySFX(seasonChangeSound);
 
         if (LevelManagerScript.instance.isWinter)
         {

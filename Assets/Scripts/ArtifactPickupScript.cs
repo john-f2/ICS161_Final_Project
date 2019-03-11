@@ -14,6 +14,8 @@ public class ArtifactPickupScript : MonoBehaviour
             {
                 SeasonChangeImage.GetComponent<Image>().enabled = true;
                 SeasonChangeImage.GetComponent<SeasonChangeButtonScript>().enabled = true;
+                LevelManagerScript.instance.hasArtifact = true;
+                SFXManagerScript.instance.PlayAchievement();
                 LevelManagerScript.instance.WriteText("Picked up the artifact!");
                 Destroy(this.gameObject);
             }

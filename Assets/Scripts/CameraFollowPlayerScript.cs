@@ -10,11 +10,6 @@ public class CameraFollowPlayerScript : MonoBehaviour
     [SerializeField] protected int max_bound_x;
     [SerializeField] protected int min_bound_y;
     [SerializeField] protected int max_bound_y;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()

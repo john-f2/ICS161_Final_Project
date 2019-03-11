@@ -6,7 +6,8 @@ using TMPro;
 public class LevelManagerScript : MonoBehaviour
 {
     public static LevelManagerScript instance = null;
-    
+
+    public bool hasArtifact = false;
     public bool isWinter = true;
     public List<GameObject> summerObjectList;
     public List<GameObject> winterObjectList;
@@ -56,7 +57,10 @@ public class LevelManagerScript : MonoBehaviour
         dialougePanel.SetActive(false);
         Time.timeScale = 1;
         isRunning = false;
-        seasonControl.GetComponent<SeasonChangeButtonScript>().enabled = true;
+        if (hasArtifact)
+        {
+            seasonControl.GetComponent<SeasonChangeButtonScript>().enabled = true;
+        }
 
     }
 

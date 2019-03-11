@@ -8,6 +8,7 @@ public class LeverAScript : MonoBehaviour
 
     [SerializeField] protected Sprite frozen_lever;
     [SerializeField] protected Sprite open_lever;
+    [SerializeField] protected AudioClip clickLever;
 
     private SpriteRenderer m_spriterenderer;
 
@@ -32,6 +33,8 @@ public class LeverAScript : MonoBehaviour
                 {
                     OnLeverAPull.Invoke();
                     m_spriterenderer.sprite = open_lever;
+                    SFXManagerScript.instance.PlaySFX(clickLever);
+                    SFXManagerScript.instance.PlayAchievement();
                     LevelManagerScript.instance.WriteText("I pulled the lever! I think a gate should be open now.");
                     this.GetComponentInChildren<SeasonChangeSpriteScript>().enabled = false;
                 }
