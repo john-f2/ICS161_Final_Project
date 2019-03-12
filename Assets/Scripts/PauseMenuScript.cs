@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenuScript : MonoBehaviour
 {
@@ -31,6 +32,11 @@ public class PauseMenuScript : MonoBehaviour
             pausePanel.SetActive(false);
             screenPanel.SetActive(false);
         }
+    }
+    public void OnMainMenuButtonClicked()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("StartMenu");
     }
 
     public void OnQuitButtonClicked()
