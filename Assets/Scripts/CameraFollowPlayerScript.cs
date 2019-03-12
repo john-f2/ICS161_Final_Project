@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraFollowPlayerScript : MonoBehaviour
 {
-    public GameObject player;
+    [SerializeField] protected GameObject player;
 
     [SerializeField] protected int min_bound_x;
     [SerializeField] protected int max_bound_x;

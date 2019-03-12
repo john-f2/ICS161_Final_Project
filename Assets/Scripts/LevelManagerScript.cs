@@ -26,7 +26,6 @@ public class LevelManagerScript : MonoBehaviour
             instance = this;
         else
             Destroy(this.gameObject);
-        DontDestroyOnLoad(this.gameObject);
         dialouge_box = dialougeBox.GetComponentInChildren<TextMeshProUGUI>();
     }
     // Start is called before the first frame update

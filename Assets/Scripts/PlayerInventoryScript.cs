@@ -18,7 +18,6 @@ public class PlayerInventoryScript : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
-        DontDestroyOnLoad(this.gameObject);
     }
 
 }
