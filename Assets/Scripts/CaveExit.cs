@@ -23,7 +23,14 @@ public class CaveExit : MonoBehaviour
         if (collision.collider.CompareTag("Player"))
         {
             GameObject player = GameObject.Find("Player");
-            player.transform.position = caveEntranceSpawnPoint.transform.position;
+			if (LevelManagerScript.instance.isWinter)
+			{
+				LevelManagerScript.instance.WriteText("It's winter. The bear is probably outside...");
+			}
+			else
+			{
+				player.transform.position = caveEntranceSpawnPoint.transform.position;
+			}
             //collision.gameObject.transform.position = new Vector2(caveEntranceSpawnPoint.transform.position.x, caveEntranceSpawnPoint.transform.position.y - 2);
         }
     }

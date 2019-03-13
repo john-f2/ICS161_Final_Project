@@ -13,7 +13,7 @@ public class ItemPickupScript : MonoBehaviour
                 if (this.name == "Honey")
                 {
                     PlayerInventoryScript.instance.hasHoney = true;
-                    LevelManagerScript.instance.WriteText("Honey picked up!");
+                    LevelManagerScript.instance.WriteText("Honey picked up! It's sticky enough to hold things together.");
                     LevelManagerScript.instance.summerObjectList.Remove(this.gameObject);
                 }
                 Destroy(this.gameObject);
