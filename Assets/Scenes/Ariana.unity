@@ -20379,12 +20379,12 @@ PrefabInstance:
     - target: {fileID: 8887353696846861333, guid: 70abff1a552323c4198f923034c3e058,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.087967
+      value: -5.43
       objectReference: {fileID: 0}
     - target: {fileID: 8887353696846861333, guid: 70abff1a552323c4198f923034c3e058,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 57.59602
+      value: 7.81
       objectReference: {fileID: 0}
     - target: {fileID: 8887353696846861333, guid: 70abff1a552323c4198f923034c3e058,
         type: 3}
@@ -20430,6 +20430,27 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8887353696846861332, guid: 70abff1a552323c4198f923034c3e058,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1729814457
+      objectReference: {fileID: 0}
+    - target: {fileID: 8887353696846861332, guid: 70abff1a552323c4198f923034c3e058,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8887353696846861339, guid: 70abff1a552323c4198f923034c3e058,
+        type: 3}
+      propertyPath: summer_sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f0257e8677d8b45468795901eaac7b97,
+        type: 3}
+    - target: {fileID: 8887353696870263491, guid: 70abff1a552323c4198f923034c3e058,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70abff1a552323c4198f923034c3e058, type: 3}
@@ -29002,12 +29023,12 @@ PrefabInstance:
     - target: {fileID: 114351323419393266, guid: 2ae1c65d792624341bca39aba1ccfc39,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 31.1
+      value: -3.9
       objectReference: {fileID: 0}
     - target: {fileID: 114351323419393266, guid: 2ae1c65d792624341bca39aba1ccfc39,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 61.8
+      value: 15.3
       objectReference: {fileID: 0}
     - target: {fileID: 114351323419393266, guid: 2ae1c65d792624341bca39aba1ccfc39,
         type: 3}
@@ -75356,7 +75377,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1754962805}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30.73, y: 4.52, z: -0.3451477}
+  m_LocalPosition: {x: 40.6, y: 36.2, z: -0.3451477}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1290757572}
