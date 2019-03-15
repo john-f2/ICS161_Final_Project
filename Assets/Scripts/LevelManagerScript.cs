@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LevelManagerScript : MonoBehaviour
 {
@@ -16,8 +18,11 @@ public class LevelManagerScript : MonoBehaviour
     [SerializeField] protected GameObject dialougeBox;
     [SerializeField] protected GameObject dialougePanel;
     [SerializeField] protected GameObject seasonControl;
+    [SerializeField] protected GameObject fadeScreen;
+    [SerializeField] protected GameObject goddessText;
 
     public float wait_time = 0.1f;
+    public float fade_speed = 0.5f;
     private bool isRunning = false;
 
     void Awake()
@@ -61,6 +66,56 @@ public class LevelManagerScript : MonoBehaviour
             seasonControl.GetComponent<SeasonChangeButtonScript>().enabled = true;
         }
 
+    }
+
+    public void EndGame()
+    {
+        if (!isRunning)
+        {
+            StartCoroutine(EndingSequence());
+        }
+    }
+
+    IEnumerator EndingSequence()
+    {
+        isRunning = true;
+        Time.timeScale = 0;
+        yield return new WaitForSecondsRealtime(1.0f);
+        Image fadescreenimage = fadeScreen.GetComponent<Image>();
+        var fadescreencolor = fadescreenimage.color;
+        while (fadescreencolor.a < 1)
+        {
+            fadescreencolor.a += fade_speed;
+            fadescreenimage.color = fadescreencolor;
+            yield return new WaitForSecondsRealtime(0.3f);
+        }
+        yield return new WaitForSecondsRealtime(2.0f);
+        TextMeshProUGUI goddessTextComponent = goddessText.GetComponent<TextMeshProUGUI>();
+        string g_text = "Thank you for returning the artifact to me...";
+        foreach (char c in g_text)
+        {
+            goddessTextComponent.text += c;
+            yield return new WaitForSecondsRealtime(0.08f);
+        }
+        yield return new WaitForSecondsRealtime(g_text.Length * 0.03f);
+        g_text = "I can now return the flow of seasons to your home...";
+        goddessTextComponent.text = "";
+        foreach (char c in g_text)
+        {
+            goddessTextComponent.text += c;
+            yield return new WaitForSecondsRealtime(0.08f);
+        }
+        yield return new WaitForSecondsRealtime(g_text.Length * 0.03f);
+        g_text = "Go in peace and enjoy this world.";
+        goddessTextComponent.text = "";
+        foreach (char c in g_text)
+        {
+            goddessTextComponent.text += c;
+            yield return new WaitForSecondsRealtime(0.08f);
+        }
+        yield return new WaitForSecondsRealtime(g_text.Length * 0.03f);
+        SceneManager.LoadScene("End");
+        isRunning = false;
     }
 
     void OnSeasonChangeListener()
