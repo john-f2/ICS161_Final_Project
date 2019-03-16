@@ -114,6 +114,7 @@ public class LevelManagerScript : MonoBehaviour
             yield return new WaitForSecondsRealtime(0.08f);
         }
         yield return new WaitForSecondsRealtime(g_text.Length * 0.03f);
+        Time.timeScale = 1;
         SceneManager.LoadScene("End");
         isRunning = false;
     }
