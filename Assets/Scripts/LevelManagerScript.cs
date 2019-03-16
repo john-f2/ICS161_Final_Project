@@ -17,7 +17,7 @@ public class LevelManagerScript : MonoBehaviour
     TextMeshProUGUI dialouge_box;
     [SerializeField] protected GameObject dialougeBox;
     [SerializeField] protected GameObject dialougePanel;
-    [SerializeField] protected GameObject seasonControl;
+    public GameObject seasonControl;
     [SerializeField] protected GameObject fadeScreen;
     [SerializeField] protected GameObject goddessText;
 
@@ -36,7 +36,7 @@ public class LevelManagerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        SeasonChangeButtonScript.instance.OnSeasonChange.AddListener(OnSeasonChangeListener);
+        seasonControl.GetComponent<SeasonChangeButtonScript>().OnSeasonChange.AddListener(OnSeasonChangeListener);
     }
 
     public void WriteText(string dialouge)

@@ -17,7 +17,7 @@ public class SeasonChangeSpriteScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        SeasonChangeButtonScript.instance.OnSeasonChange.AddListener(OnSeasonChangeListener);
+        LevelManagerScript.instance.seasonControl.GetComponent<SeasonChangeButtonScript>().OnSeasonChange.AddListener(OnSeasonChangeListener);
     }
 
     // Update is called once per frame
