@@ -122,7 +122,6 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-
       spriteID: 35f8cbce74ad04e659f09c3ce47d6678
       vertices: []
       indices: 
@@ -143,7 +142,6 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-
       spriteID: 2eb40c7a270c149509faa23a7b6dfed1
       vertices: []
       indices: 
@@ -164,7 +162,6 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-
       spriteID: 449f29c9379214a45a8154b01e15b588
       vertices: []
       indices: 
@@ -173,13 +170,12 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-
     spriteID: 8091ebc220dc4438daacb45c572c590c
     vertices: []
     indices: 
     edges: []
     weights: []
-  spritePackingTag: 
+  spritePackingTag: Water
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
   userData: 
