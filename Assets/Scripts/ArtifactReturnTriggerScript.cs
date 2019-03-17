@@ -6,6 +6,7 @@ public class ArtifactReturnTriggerScript : MonoBehaviour
 {
     [SerializeField] protected GameObject SeasonChangeImage;
     [SerializeField] protected GameObject ArtifactWithGoddess;
+    [SerializeField] protected GameObject PauseMenu;
 
     void OnTriggerStay2D(Collider2D collider)
     {
@@ -15,6 +16,7 @@ public class ArtifactReturnTriggerScript : MonoBehaviour
             {
                 SeasonChangeImage.GetComponent<SeasonChangeButtonScript>().enabled = false;
                 LevelManagerScript.instance.hasArtifact = false;
+                PauseMenu.SetActive(false);
                 ArtifactWithGoddess.SetActive(true);
                 SFXManagerScript.instance.PlayAchievement();
                 LevelManagerScript.instance.EndGame();
